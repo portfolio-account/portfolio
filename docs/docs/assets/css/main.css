@@ -918,6 +918,9 @@ table tfoot td {
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
   width: 240px;
   height: 100%;
   padding: 20px 10px;
@@ -1449,11 +1452,4 @@ a.newer-posts:hover {
   .post .post-content .post-title a {
     font-size: 21px;
   }
-}
-.center {
-  margin: auto;
-  padding: 5%;
-}
-.color-grey {
-  color: #808080;
 }

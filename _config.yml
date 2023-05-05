@@ -1,12 +1,6 @@
 title: Shishir Sonekar - Portfolio
 description: > # this means to ignore newlines until "baseurl:"
-  I’m a Full Stack Engineer by profession and I’m passionate to be the 
-  part of this Industry. Major Skill sets are Web Services, Javascript, 
-  Nodejs, Vuejs, Linux. Currently, Turning every stones in Blockchain Space.
-  My current assignment is with InstaRem where i’m Involved in developing 
-  Core Banking Platform from Scratch. Basically, we are trying to change the way 
-  people make Cross Border Money Transfer. Here, i fall in Love with Financial 
-  Technology!
+  A Software Engineer.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://127.0.0.1:4000/" # the base hostname & protocol for your site, e.g. http://example.com
@@ -14,12 +8,12 @@ site-twitter: https://twitter.com/shishirViz #if your site has a twitter account
 
 # Author Settings
 author: Shishir Sonekar # add your name
-author-img: teri.jpg # add your photo
-about-author: Full Stack Engineer | Javscript | Blockchain | Web Development | MicroService Architecture.  Helping Startup to make their first step.   Open for Consulting work. # add description
+author-img: pp2.jpg # add your photo
+about-author: Software Consultant | AWS | MicroService Architecture | WebDevelopment. Helping Startup to make their first step. # add description
 social-twitter: shishirViz # add your Twitter handle
 social-github: shishir99111 # add your Github handle
 social-linkedin: shishir-sonekar-2a1843125 # add your Linkedin handle
-social-email: shishir.sr01@gmail.com # add your Email address
+social-email: contact@shishirsonekar.com # add your Email address
 
 # Disqus
 # discus-identifier: mr-brown # add your discus identifier
