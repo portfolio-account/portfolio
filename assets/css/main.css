@@ -1457,3 +1457,13 @@ a.newer-posts:hover {
 .color-grey {
   color: #808080;
 }
+
+a, a:visited {
+  text-decoration: none;
+  color: #495762;
+  transition: 0.1s;
+}
+
+a {
+  background-color: transparent;
+}
