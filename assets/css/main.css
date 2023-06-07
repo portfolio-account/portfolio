@@ -879,6 +879,17 @@ table tfoot td {
   position: relative;
 }
 
+.layout {
+  display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .layout {
+    display: block;
+  }
+}
+
 .post, .article-page {
   background-color: #fff;
 }
@@ -917,8 +928,8 @@ table tfoot td {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  position: fixed;
-  width: 240px;
+  /* position: fixed; */
+  width: 400px;
   height: 100%;
   padding: 20px 10px;
   background-color: #ffffff;
@@ -930,8 +941,7 @@ table tfoot td {
 }
 
 .about .cover-author-image {
-  width: 100px;
-  height: 100px;
+  width: 400px;
   margin: 0 auto 10px;
   -webkit-border-radius: 100%;
           border-radius: 100%;
@@ -988,9 +998,10 @@ table tfoot td {
   margin: 0 0 10px;
 }
 
+
+
 .content-box {
   padding: 20px;
-  padding-left: 260px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1392,8 +1403,8 @@ a.newer-posts:hover {
     margin: 10px auto auto;
   }
   .about img {
-    width: 100px;
-    height: 100px;
+    /* width: 100px;
+    height: 100px; */
     -webkit-border-radius: 100%;
             border-radius: 100%;
     margin-bottom: 10px;
@@ -1419,6 +1430,9 @@ a.newer-posts:hover {
   }
   .contact-title, .copyright {
     display: none;
+  }
+  .about .cover-author-image {
+    width: 330px;
   }
 }
 
