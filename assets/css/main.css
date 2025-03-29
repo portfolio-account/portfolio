@@ -1485,3 +1485,19 @@ a, a:visited {
 a {
   background-color: transparent;
 }
+
+.welcome-text {
+  font-size: 1.5em; /* Increase the font size */
+  font-weight: bold; /* Make it bold */
+  color: #ff5733; /* Bright color for contrast */
+  text-align: center; /* Center-align the text */
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f3f3f3; /* Soft background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+  transition: background-color 0.3s ease;
+}
+
+.welcome-text:hover {
+  background-color: #ffcc00; /* Change background color on hover */
+}
